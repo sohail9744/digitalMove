@@ -4,7 +4,9 @@ const Book = () => {
   return (
     <>
       <NavBar />
-      <p>Book Appointment Page</p>
+      <main className="mt-20">
+        <p>Book your Appointment</p>
+      </main>
       <Footer />
     </>
   );
