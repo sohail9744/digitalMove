@@ -1,13 +1,13 @@
 import Footer from "../CommonLayout/Footer";
 import NavBar from "../CommonLayout/NavBar";
-export default function AboutUs() {
+const Book = () => {
   return (
     <>
       <NavBar />
-      <main className="mt-20">
-        <p>About US Layout</p>
-      </main>
+      <p>Book Appointment Page</p>
       <Footer />
     </>
   );
-}
+};
+
+export default Book;
