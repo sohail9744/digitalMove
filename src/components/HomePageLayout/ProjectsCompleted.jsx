@@ -22,7 +22,7 @@ export default function Projects() {
       icon: team,
       title: "25",
       symbol: {
-        classStr: "material-symbols-rounded",
+        classStr: "material-symbols-outlined text-4xl",
         tagName: "add",
       },
       des: "Staff Memebers",
@@ -32,7 +32,7 @@ export default function Projects() {
       icon: Productdeliverd,
       title: "100",
       symbol: {
-        classStr: "material-symbols-rounded",
+        classStr: "material-symbols-outlined text-4xl",
         tagName: "add",
       },
       des: "Delivered Products",
@@ -42,7 +42,7 @@ export default function Projects() {
       icon: onGoingProj,
       title: "18",
       symbol: {
-        classStr: "material-symbols-rounded",
+        classStr: "material-symbols-outlined text-4xl",
         tagName: "add",
       },
       des: "Current Projects",
