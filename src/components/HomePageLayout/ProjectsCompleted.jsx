@@ -51,29 +51,30 @@ export default function Projects() {
   ];
   const [isVisible, setIsVisible] = useState(false);
   const countUpRef = useRef(null);
+  const observer = useRef(null);
 
   const onIntersection = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         setIsVisible(true);
         // Unobserve the element after it's visible, if you want the count-up to trigger only once
-        observer.unobserve(entry.target);
+        observer.current.unobserve(entry.target);
       }
     });
   };
 
   useEffect(() => {
-    const observer = new IntersectionObserver(onIntersection, {
+    observer.current = new IntersectionObserver(onIntersection, {
       root: null,
       threshold: 0.2, // Adjust the threshold as needed (0.2 means 20% of the element is visible)
     });
 
     // Start observing the count-up element when the component mounts
-    observer.observe(countUpRef.current);
+    observer.current.observe(countUpRef.current);
 
     // Cleanup the observer when the component unmounts
     return () => {
-      observer.disconnect();
+      observer.current.disconnect();
     };
   }, []);
   return (
