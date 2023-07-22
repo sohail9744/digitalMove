@@ -3,7 +3,7 @@ const OurServices = () => {
   return (
     <>
       {/* Main Container */}
-      <main className="bg-orange-100 border-t border-cyan-300">
+      <main className="bg-orange-100 border-t border-stone-300">
         {/* sub Container */}
         <section className="flex justify-center flex-wrap flex-col items-center">
           <div className="flex justify-center flex-col items-center">

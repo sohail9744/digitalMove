@@ -6,6 +6,7 @@ import { Typewriter, Cursor } from "react-simple-typewriter";
 // import HomeBannerImage from "../../Images/HomeBannerImage.jpg";
 import buildingWebsite from "./Icons/buildingWebsite.svg";
 import OurServices from "./Services.jsx";
+import Projects from "./ProjectsCompleted.jsx";
 
 export default function Home() {
   const text = Typewriter({
@@ -16,7 +17,7 @@ export default function Home() {
       "Personal Blog Website",
       "Non-Profit Org Website",
     ],
-    loop: {}
+    loop: {},
   });
   return (
     <>
@@ -67,6 +68,7 @@ export default function Home() {
           </div>
         </div>
         <OurServices />
+        <Projects />
       </main>
       <Footer />
     </>
