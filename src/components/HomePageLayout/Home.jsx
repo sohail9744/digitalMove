@@ -16,10 +16,7 @@ export default function Home() {
       "Personal Blog Website",
       "Non-Profit Org Website",
     ],
-    loop: {},
-    // blinker: "_",
-    // delay: 1000,
-    // blinkerDelay: 1000,
+    loop: {}
   });
   return (
     <>

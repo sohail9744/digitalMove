@@ -8,6 +8,9 @@ export default {
         quickSand: ["Quicksand"],
         roboto: ["Roboto"],
       },
+      colors: {
+        customColor: "#afcfda", // Replace with your desired HEX color
+      },
     },
   },
   plugins: [],
