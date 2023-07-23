@@ -2,7 +2,7 @@ import powerful from "./Icons/powerful.svg";
 import team from "./Icons/team.svg";
 import Productdeliverd from "./Icons/Productdeliverd.svg";
 import onGoingProj from "./Icons/onGoingProj.svg";
-import "./ProjectsCompleted.css";
+import "./css/ProjectsCompleted.css";
 import CountUp from "react-countup";
 import { useEffect, useRef, useState } from "react";
 

@@ -7,12 +7,13 @@ import { Typewriter, Cursor } from "react-simple-typewriter";
 import buildingWebsite from "./Icons/buildingWebsite.svg";
 import OurServices from "./Services.jsx";
 import Projects from "./ProjectsCompleted.jsx";
+import Help from "./OurHelp.jsx";
 
 export default function Home() {
   const text = Typewriter({
     words: [
       "Ecommerce Website",
-      "General Business Website",
+      "Business Website with SAPUI5",
       "Mobile Application 📱",
       "Fully Responsive Website :)",
       "Personal Blog Website",
@@ -46,7 +47,7 @@ export default function Home() {
                   <Cursor cursorColor="red" />
                 </span>
               </h2>
-              <div className="w-4/5 my-12 ">
+              <div className="w-4/5 my-10 ">
                 <p className="font-popins break-words font-normal sm:font-extrabold">
                   Welcome to
                   <span className="ml-1 font-bold">DigitalM0ve.com</span>, where
@@ -71,6 +72,7 @@ export default function Home() {
         </div>
         <OurServices />
         <Projects />
+        <Help />
       </main>
       <Footer />
     </>

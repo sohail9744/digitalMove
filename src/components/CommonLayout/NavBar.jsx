@@ -4,6 +4,7 @@ import RoofingIcon from "@mui/icons-material/Roofing";
 import BlurOnIcon from "@mui/icons-material/BlurOn";
 import SendIcon from "@mui/icons-material/Send";
 import Stack from "@mui/material/Stack";
+import InfoIcon from "@mui/icons-material/Info";
 import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
@@ -17,8 +18,8 @@ export default function NavBar() {
             <img src={rectImage} className="w-12" alt="not available" />
           </div>
           {/* Button container */}
-          <div className="flex gap-3 pr-4">
-            <Stack direction="row" spacing={2}>
+          <div className="flex pr-16">
+            <Stack direction="row" spacing={3}>
               {/* Use Link component from react-router-dom for navigation */}
               <Link to={"/"}>
                 <Button variant="text" startIcon={<RoofingIcon />}>
@@ -31,18 +32,13 @@ export default function NavBar() {
                 </Button>
               </Link>
               <Link to={"/aboutus"}>
-                <Button variant="text" startIcon={<BlurOnIcon />}>
+                <Button variant="text" startIcon={<InfoIcon />}>
                   About Us
                 </Button>
               </Link>
               <Link to={"/contactus"}>
-                <Button variant="text" startIcon={<BlurOnIcon />}>
-                  Services and Support
-                </Button>
-              </Link>
-              <Link to={"/bookappointment"}>
-                <Button variant="contained" startIcon={<SendIcon />}>
-                  Book your oppointment
+                <Button variant="text" endIcon={<SendIcon />}>
+                  Contact Us
                 </Button>
               </Link>
             </Stack>

@@ -3,6 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
+      // sm: "640px",
+      // // => @media (min-width: 640px) { ... }
+
+      // md: "1024px",
+      // // => @media (min-width: 1024px) { ... }
+
+      // lg: "1280px",
+      // // => @media (min-width: 1280px) { ... }
+
       sm: { min: "320px", max: "425px" },
       // => @media (min-width: 640px and max-width: 767px) { ... }
 
@@ -35,5 +44,6 @@ export default {
       },
     },
   },
+  // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
 };
