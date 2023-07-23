@@ -13,9 +13,11 @@ export default function Home() {
     words: [
       "Ecommerce Website",
       "General Business Website",
-      "Portfolio Website",
+      "Mobile Application 📱",
+      "Fully Responsive Website :)",
       "Personal Blog Website",
-      "Non-Profit Org Website",
+      "Low-Code web or Mobile App",
+      "Portfolio Website",
     ],
     loop: {},
   });
@@ -45,7 +47,7 @@ export default function Home() {
                 </span>
               </h2>
               <div className="w-4/5 my-12 ">
-                <p className="font-popins break-words font-normal">
+                <p className="font-popins break-words font-normal sm:font-extrabold">
                   Welcome to
                   <span className="ml-1 font-bold">DigitalM0ve.com</span>, where
                   innovation meets excellence! We are your trusted partner in
