@@ -128,7 +128,12 @@ export default function Footer() {
         </footer>
         <main className="bg-stone-800 flex justify-center items-center shadow-lg h-14">
           <div className="text-sm text-white font-popins font-semibold">
-            <p>Copyright © 2023 Digital M0ve. All Rights Reserved</p>
+            <p>
+              @2023 - All Right Reserved by
+              <span className="ml-1">
+                <a href="http://#">DigitalMove.com</a>
+              </span>
+            </p>
           </div>
         </main>
       </div>
