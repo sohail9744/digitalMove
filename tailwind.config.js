@@ -41,6 +41,7 @@ export default {
       },
       colors: {
         customColor: "#afcfda", // Replace with your desired HEX color
+        customBlue: "#1976d2",
       },
     },
   },

@@ -4,6 +4,7 @@ import Footer from "../CommonLayout/Footer";
 import NavBar from "../CommonLayout/NavBar";
 import Banner from "../CommonLayout/Banner";
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 export default function AboutUs() {
   return (
     <>
@@ -67,7 +68,9 @@ export default function AboutUs() {
                     presence.
                   </p>
                   <div className="w-full flex justify-start items-start">
-                    <Button variant="contained">Contact Us</Button>
+                    <Link to={"/contactus"}>
+                      <Button variant="contained">Contact Us</Button>
+                    </Link>
                   </div>
                 </div>
                 <div className="w-6/12">
