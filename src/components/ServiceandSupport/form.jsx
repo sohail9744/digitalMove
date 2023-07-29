@@ -1,7 +1,6 @@
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import "./Css/form.css";
-import LocationIcon from "./Icons/Location.svg";
 export default function ContactForm() {
   return (
     <>

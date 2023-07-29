@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Footer from "../CommonLayout/Footer";
 import NavBar from "../CommonLayout/NavBar";
 import Banner from "../CommonLayout/Banner";
@@ -14,7 +15,7 @@ export default function ContactUs() {
               Questions? Let's Talk
             </h2>
             <p className="w-6/12 font-popins text-center">
-              Want to learn more about Martex, get a quote, or speak with an
+              Want to learn more about DigitalM0ve, get a quote, or speak with an
               expert? Let us know what you are looking for and we’ll get back to
               you right away
             </p>

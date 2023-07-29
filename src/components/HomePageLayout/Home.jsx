@@ -8,6 +8,7 @@ import buildingWebsite from "./Icons/buildingWebsite.svg";
 import OurServices from "./Services.jsx";
 import Projects from "./ProjectsCompleted.jsx";
 import Help from "./OurHelp.jsx";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const text = Typewriter({
@@ -61,9 +62,11 @@ export default function Home() {
                   reality.
                 </p>
               </div>
-              <Button variant="contained" endIcon={<SendIcon />}>
-                Get started
-              </Button>
+              <Link to={"/contactus"}>
+                <Button variant="contained" endIcon={<SendIcon />}>
+                  Get started
+                </Button>
+              </Link>
             </div>
             <div style={{ width: "197%" }}>
               <img src={buildingWebsite} alt="not found" />
