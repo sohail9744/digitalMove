@@ -49,7 +49,7 @@ export default function Home() {
                 </span>
               </h2>
               <div className="w-4/5 my-10 ">
-                <p className="font-popins break-words font-normal sm:font-extrabold">
+                <p className="font-popins break-words font-normal">
                   Welcome to
                   <span className="ml-1 font-bold">DigitalM0ve.com</span>, where
                   innovation meets excellence! We are your trusted partner in
