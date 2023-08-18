@@ -80,7 +80,7 @@ export default function Projects() {
   return (
     <>
       <main className="border-t border-stone-300 flex justify-center items-center">
-        <section className="my-24 px-12 flex justify-around w-full">
+        <section className="lg:my-8 px-12 md:p-10 md:gap-10 md:flex-wrap flex md:flex-row lg:flex-row lg:justify-around w-full lg:gap-0 sm:my-10 sm:flex-row sm:flex-wrap sm:gap-10 sm:justify-center sm:items-center">
           {data.map((item, index) => (
             <div key={index} className="flex gap-4">
               <div className="flex gap-4 items-center">
@@ -104,7 +104,7 @@ export default function Projects() {
                 </div>
               </div>
               <div
-                className={`border-r-stone-300 border-r-2 ${
+                className={`lg:border-r-stone-300 lg:border-r-2 sm:border-b-stone-300 sm:border-b-2  ${
                   item.isVisible ? "block" : "hidden"
                 }`}
               ></div>

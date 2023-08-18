@@ -9,7 +9,7 @@ export default function AboutUs() {
   return (
     <>
       <NavBar />
-      <main className="mt-20">
+      <main>
         <Banner text="About US" />
         <main className="border-t bg-white border-stone-300 flex justify-center items-center">
           <section className="my-6 px-12 flex justify-start items-center w-full">

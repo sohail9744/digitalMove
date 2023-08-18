@@ -4,18 +4,18 @@ export default function Help() {
   return (
     <>
       <main className="border-t bg-orange-100 border-stone-300 flex justify-center items-center">
-        <section className="my-6 px-12 flex justify-start items-center w-full">
+        <section className="lg:px-12 p-5 flex justify-start items-center w-full">
           <div className="flex w-full gap-8 flex-col justify-start items-start">
-            <div className="font-popins w-6/12 flex flex-col gap-2">
+            <div className="font-popins lg:w-6/12 flex flex-col gap-2 sm:w-full">
               <h2 className="font-semibold text-red-500">
                 HOW CAN WE HELP YOU?
               </h2>
-              <h3 className="text-4xl font-semibold text-black">
+              <h3 className="lg:text-4xl font-semibold text-black sm:text-xl">
                 We can help in any way in the field of IT service and technology
               </h3>
             </div>
-            <div className="flex justify-around gap-10 items-center">
-              <div className="flex gap-3 w-6/12 flex-col bg-blue-900 text-white p-7 rounded-md">
+            <div className="flex justify-around gap-10 items-center lg:flex-row sm:flex-col">
+              <div className="flex gap-3 lg:w-6/12 flex-col bg-blue-900 text-white p-7 rounded-md sm:w-full">
                 <p className="break-words justify-start items-center font-roboto">
                   By choosing our services, you are making a decision to partner
                   with a team of seasoned and proficient developers specializing
@@ -48,7 +48,7 @@ export default function Help() {
                   new heights through innovative and custom-tailored solutions.
                 </p>
               </div>
-              <div className="w-6/12">
+              <div className="lg:w-6/12 sm:w-full">
                 <img src={boss} alt="not found" />
               </div>
             </div>

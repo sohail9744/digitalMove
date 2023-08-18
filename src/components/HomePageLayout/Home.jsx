@@ -9,6 +9,7 @@ import OurServices from "./Services.jsx";
 import Projects from "./ProjectsCompleted.jsx";
 import Help from "./OurHelp.jsx";
 import { Link } from "react-router-dom";
+import "./css/Home.css";
 
 export default function Home() {
   const text = Typewriter({
@@ -23,24 +24,23 @@ export default function Home() {
     ],
     loop: {},
   });
+
   return (
     <>
       <NavBar />
       {/* Main Contianer */}
-      <main className="mt-20">
+      <main>
         {/* Background image container */}
-        <div
-          className="banner-container bg-cover bg-center"
-          // style={{
-          //   backgroundImage: `url(${HomeBannerImage})`,
-          // }}
-        >
+        <div className="banner-container bg-cover bg-center">
           {/* store text and image  */}
-          <div className="flex flex-row justify-between p-20">
-            <div>
-              <h2 className="text-3xl font-popins font-extrabold">
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
+          <div className="lg:flex lg:flex-row lg:justify-between lg:p-20 sm:p-0 sm:flex sm:flex-col">
+            <div className=" lg:block sm:flex sm:flex-col sm:justify-center sm:items-center">
+              <div className="lg:hidden sm:mt-10 sm:font-extrabold sm:text-xl">
                 Let's Build
+              </div>
+              <h2 className="lg:text-3xl font-popins lg:font-extrabold sm:text-xl sm:my-2">
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                <span className="hidden lg:inline-block">Let's Build</span>
                 <span style={{ color: "green", marginLeft: "8px" }}>
                   {text}
                 </span>
@@ -48,8 +48,8 @@ export default function Home() {
                   <Cursor cursorColor="red" />
                 </span>
               </h2>
-              <div className="w-4/5 my-10 ">
-                <p className="font-popins break-words font-normal">
+              <div className="lg:w-4/5 lg:my-10 lg:p-0 lg:m-0 sm:w-full sm:m-6 sm:p-4">
+                <p className="font-popins break-words lg:text-xl lg:font-normal sm:font-sans sm:text-s">
                   Welcome to
                   <span className="ml-1 font-bold">DigitalM0ve.com</span>, where
                   innovation meets excellence! We are your trusted partner in
@@ -68,7 +68,10 @@ export default function Home() {
                 </Button>
               </Link>
             </div>
-            <div style={{ width: "197%" }}>
+            <div className="lg-image-width sm:hidden lg:inline-block">
+              <img src={buildingWebsite} alt="not found" />
+            </div>
+            <div className="sm-image-width lg:hidden mt-10 sm:inline-block">
               <img src={buildingWebsite} alt="not found" />
             </div>
           </div>

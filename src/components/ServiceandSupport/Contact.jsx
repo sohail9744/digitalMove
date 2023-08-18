@@ -7,7 +7,7 @@ export default function ContactUs() {
   return (
     <>
       <NavBar />
-      <main className="mt-20">
+      <main>
         <Banner text="Contact Us" />
         <section className="flex flex-col gap-10 my-16">
           <div className="flex flex-col gap-3 justify-center items-center">
