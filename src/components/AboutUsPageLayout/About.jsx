@@ -12,17 +12,17 @@ export default function AboutUs() {
       <main>
         <Banner text="About US" />
         <main className="border-t bg-white border-stone-300 flex justify-center items-center">
-          <section className="my-6 px-12 flex justify-start items-center w-full">
+          <section className="my-6 lg:px-12 sm:px-1 flex justify-start items-center w-full">
             <div className="flex w-full gap-8 flex-col justify-start items-start">
-              <div className="flex justify-around gap-10 items-center">
-                <div className="w-6/12">
+              <div className="flex lg:flex-row sm:flex-col justify-around lg:gap-10 sm:gap-0 items-center">
+                <div className="lg:w-6/12 sm:w-full">
                   <img src={team} alt="not found" />
                 </div>
-                <div className="flex gap-3 w-6/12 flex-col text-black p-7 rounded-md">
+                <div className="flex lg:gap-3 sm:gap-5 lg:w-6/12 sm:w-full flex-col text-black p-7 rounded-md">
                   <h2 className="font-semibold text-3xl text-stone-600">
                     Who we are?
                   </h2>
-                  <p className="break-words larger-text text-lg justify-start text-amber-950 items-center font-sans">
+                  <p className="break-words larger-text lg:text-lg sm:text-md justify-start text-amber-950 items-center font-sans">
                     At DigitalMove.com, we are a dynamic and forward-thinking
                     company that was established in 2018 with a vision to
                     revolutionize the digital landscape. Starting with just 4
@@ -33,7 +33,7 @@ export default function AboutUs() {
                   <h2 className="font-semibold text-3xl text-stone-600">
                     Digits that define growth
                   </h2>
-                  <p className="break-words larger-text w-full text-lg justify-start text-amber-950 items-center font-sans">
+                  <p className="break-words larger-text w-full lg:text-lg sm:text-md justify-start text-amber-950 items-center font-sans">
                     As a trusted leader in the industry, we specialize in
                     providing end-to-end digital solutions that empower
                     businesses to thrive in today fast-paced digital world. From
@@ -48,14 +48,14 @@ export default function AboutUs() {
           </section>
         </main>
         <main className="bg-white flex justify-center items-center">
-          <section className="my-6 px-12 flex justify-start items-center w-full">
+          <section className="my-6 lg:px-12 sm:px-1 flex justify-start items-center w-full">
             <div className="flex w-full gap-8 flex-col justify-start items-start">
-              <div className="flex justify-around gap-10 items-center">
-                <div className="flex justify-between items-center gap-3 w-6/12 flex-col text-black p-7 rounded-md">
+              <div className="flex lg:flex-row sm:flex-col-reverse justify-around sm:gap-5 lg:gap-10 items-center">
+                <div className="flex justify-between items-center gap-3 sm:w-full lg:w-6/12 flex-col text-black p-7 rounded-md">
                   <h2 className="font-semibold text-3xl text-stone-600">
                     Our Mission
                   </h2>
-                  <p className="break-words mb-5 larger-text w-full text-lg text-amber-950 font-sans">
+                  <p className="break-words mb-5 larger-text w-full lg:text-lg sm:text-md text-amber-950 font-sans">
                     Our cutting-edge and result-driven strategies are
                     meticulously crafted to bolster your digital footprint and
                     allure a stream of targeted and qualified prospects to your
@@ -67,13 +67,13 @@ export default function AboutUs() {
                     (SEO), and digital marketing to optimize your online
                     presence.
                   </p>
-                  <div className="w-full flex justify-start items-start">
+                  <div className="w-full flex justify-center items-center">
                     <Link to={"/contactus"}>
                       <Button variant="contained">Contact Us</Button>
                     </Link>
                   </div>
                 </div>
-                <div className="w-6/12">
+                <div className="lg:w-6/12 sm:w-full">
                   <img src={marketing} alt="not found" />
                 </div>
               </div>

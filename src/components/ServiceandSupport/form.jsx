@@ -4,8 +4,8 @@ import "./Css/form.css";
 export default function ContactForm() {
   return (
     <>
-      <main className="flex justify-around">
-        <section className="flex flex-col gap-6 w-6/12">
+      <main className="flex lg:flex-row sm:flex-col justify-around">
+        <section className="flex flex-col gap-6 sm:w-full lg:p-0 sm:p-6 lg:w-6/12">
           <h2 className="text-3xl font-popins font-bold text-stone-800 opacity-80">
             Leave your Message
           </h2>
@@ -58,7 +58,7 @@ export default function ContactForm() {
             </Button>
           </div>
         </section>
-        <section>
+        <section className="sm:px-5 sm:pt-8 lg:pt-0" >
           <h2 className="text-3xl font-popins font-bold text-stone-800 opacity-80">
             Get in touch
           </h2>

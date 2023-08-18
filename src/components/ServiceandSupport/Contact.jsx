@@ -9,12 +9,12 @@ export default function ContactUs() {
       <NavBar />
       <main>
         <Banner text="Contact Us" />
-        <section className="flex flex-col gap-10 my-16">
-          <div className="flex flex-col gap-3 justify-center items-center">
-            <h2 className="text-4xl font-popins font-bold text-stone-800 opacity-80">
+        <section className="flex flex-col lg:gap-10 sm:gap-0 my-16">
+          <div className="flex flex-col gap-3 lg:p-0 sm:p-5 justify-center items-center">
+            <h2 className="text-4xl font-popins font-bold text-stone-800 opacity-80 sm:text-center">
               Questions? Let's Talk
             </h2>
-            <p className="w-6/12 font-popins text-center">
+            <p className="lg:w-6/12 sm:w-full font-popins text-center">
               Want to learn more about DigitalM0ve, get a quote, or speak with an
               expert? Let us know what you are looking for and we’ll get back to
               you right away
