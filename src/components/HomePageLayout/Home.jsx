@@ -36,6 +36,7 @@ export default function Home() {
           <div className="lg:flex lg:flex-row lg:justify-between lg:p-20 sm:p-0 sm:flex sm:flex-col">
             <div className=" lg:block sm:flex sm:flex-col sm:justify-center sm:items-center">
               <div className="lg:hidden sm:mt-10 sm:font-extrabold sm:text-xl">
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 Let's Build
               </div>
               <h2 className="lg:text-3xl font-popins lg:font-extrabold sm:text-xl sm:my-2">
