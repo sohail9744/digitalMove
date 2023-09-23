@@ -100,7 +100,7 @@ export default function ContactForm() {
                   Email :
                 </label>
                 <p className="font-quickSand font-medium">
-                  info@digitalM0ve.com
+                  info@asyncloud.com
                 </p>
               </div>
             </div>

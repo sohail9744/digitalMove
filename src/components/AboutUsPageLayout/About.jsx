@@ -23,7 +23,7 @@ export default function AboutUs() {
                     Who we are?
                   </h2>
                   <p className="break-words larger-text lg:text-lg sm:text-md justify-start text-amber-950 items-center font-sans">
-                    At DigitalMove.com, we are a dynamic and forward-thinking
+                    At asyncloud IT Solutions, we are a dynamic and forward-thinking
                     company that was established in 2018 with a vision to
                     revolutionize the digital landscape. Starting with just 4
                     dedicated employees, our relentless commitment to excellence

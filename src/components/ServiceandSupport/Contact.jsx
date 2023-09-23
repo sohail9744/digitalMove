@@ -15,7 +15,7 @@ export default function ContactUs() {
               Questions? Let's Talk
             </h2>
             <p className="lg:w-6/12 sm:w-full font-popins text-center">
-              Want to learn more about DigitalM0ve, get a quote, or speak with an
+              Want to learn more about asynCloud IT solutions, get a quote, or speak with an
               expert? Let us know what you are looking for and we’ll get back to
               you right away
             </p>
