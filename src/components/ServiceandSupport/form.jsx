@@ -74,7 +74,8 @@ export default function ContactForm() {
                   Address :
                 </label>
                 <p className="font-quickSand font-medium">
-                  203, SolitAiar Tower, Idgha hills, Bhopal MP
+                  The City Tower, Central Jakarta,
+                  <br /> 10310 Indonesia
                 </p>
               </div>
             </div>
@@ -88,6 +89,7 @@ export default function ContactForm() {
                 <label className="font-popins font-semibold" htmlFor="">
                   Contact Number :
                 </label>
+                <p className="font-quickSand font-medium">+62-8886461950</p>
                 <p className="font-quickSand font-medium">+91-9111063317</p>
               </div>
             </div>
