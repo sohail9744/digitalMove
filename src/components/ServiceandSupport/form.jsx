@@ -58,7 +58,7 @@ export default function ContactForm() {
             </Button>
           </div>
         </section>
-        <section className="sm:px-5 sm:pt-8 lg:pt-0" >
+        <section className="sm:px-5 sm:pt-8 lg:pt-0">
           <h2 className="text-3xl font-popins font-bold text-stone-800 opacity-80">
             Get in touch
           </h2>
@@ -74,7 +74,7 @@ export default function ContactForm() {
                   Address :
                 </label>
                 <p className="font-quickSand font-medium">
-                  413 Mesa Drive North Las Vegas, NV 89032
+                  203, SolitAiar Tower, Idgha hills, Bhopal MP
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function ContactForm() {
                 <label className="font-popins font-semibold" htmlFor="">
                   Contact Number :
                 </label>
-                <p className="font-quickSand font-medium">+91-9685622722</p>
+                <p className="font-quickSand font-medium">+91-9111063317</p>
               </div>
             </div>
             <div className="flex gap-4 items-center">
@@ -99,9 +99,7 @@ export default function ContactForm() {
                 <label className="font-popins font-semibold" htmlFor="">
                   Email :
                 </label>
-                <p className="font-quickSand font-medium">
-                  info@asyncloud.com
-                </p>
+                <p className="font-quickSand font-medium">info@asyncloud.com</p>
               </div>
             </div>
           </div>
