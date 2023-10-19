@@ -5178,6 +5178,7 @@ h6, .h6 {
       color: var(--ygency-primary-color); }
     .service-four-item .icon-btn .more-btn {
       width: 50px;
+      border-radius: 50px;
       height: 50px;
       line-height: 50px;
       text-align: center;
@@ -5185,7 +5186,12 @@ h6, .h6 {
       color: var(--ygency-primary-color);
       -webkit-transform: translate(30px, -30px);
       -ms-transform: translate(30px, -30px);
-      transform: translate(30px, -30px); }
+      transform: translate(30px, -30px);
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+}
       .service-four-item .icon-btn .more-btn > i {
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
