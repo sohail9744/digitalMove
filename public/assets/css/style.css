@@ -698,6 +698,7 @@ a.theme-btn {
 
 /*** Preloader style ** */
 .preloader {
+  
   position: fixed;
   left: 0;
   top: 0;
