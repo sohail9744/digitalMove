@@ -3241,11 +3241,14 @@ h6, .h6 {
     -ms-flex: none;
     flex: none; 
     width: 100px;
+    
   }
     @media only screen and (max-width: 991px) {
       .main-header .logo-outer {
-        display: none; } }
+        display: none;
+         } }
   .main-header .logo {
+    
     z-index: 9;
     padding: 2px 0;
     position: relative; }
