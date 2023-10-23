@@ -18,7 +18,7 @@ const Index2 = () => {
       >
         <div className="container">
           <h1 className="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
-            Website
+            Develop
             <span className="arrow">
               <img
                 className="wow fadeInLeft delay-0-6s"
@@ -26,7 +26,7 @@ const Index2 = () => {
                 alt="Arrow"
               />
             </span>
-            Develop Asyncloud
+            With Asyncloud
           </h1>
           <div className="row align-items-center justify-content-between">
             <div className="col-xl-3 col-lg-4">
