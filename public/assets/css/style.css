@@ -3347,6 +3347,7 @@ h6, .h6 {
         border-top: 1px solid var(--ygency-border-color); } }
     .main-menu .navbar-collapse li.dropdown .dropdown-btn {
       cursor: pointer;
+      display: none;
       font-size: 12px;
       margin-left: 5px;
       color: var(--ygency-secondary-color); }
