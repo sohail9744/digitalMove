@@ -20,12 +20,10 @@ export default Menu;
 const DaskTopMenu = () => {
   return (
     <ul className="navigation d-none d-lg-flex desktop-menu">
-      <li className="dropdown">
-        <a href="#">Home
-        </a>
+      {/* <li className="dropdown">
+        <a href="#">Home</a>
         <ul>
           <li className="dropdown">
-            
             <ul>
               <li>
                 <Link legacyBehavior href="/">
@@ -94,13 +92,33 @@ const DaskTopMenu = () => {
         <div className="dropdown-btn">
           <span className="far fa-plus" />
         </div>
+      </li> */}
+      <li>
+        <Link legacyBehavior href="/">
+          Home
+        </Link>
       </li>
       <li>
         <Link legacyBehavior href="about">
           About Us
         </Link>
       </li>
-      <li className="dropdown">
+      <li>
+        <Link legacyBehavior href="contact">
+          Contact Us
+        </Link>
+      </li>
+      <li>
+        <Link legacyBehavior href="services">
+          Services
+        </Link>
+      </li>
+      <li>
+        <Link legacyBehavior href="services">
+          Blog
+        </Link>
+      </li>
+      {/* <li className="dropdown">
         <a href="#">pages</a>
         <ul>
           <li>
@@ -232,7 +250,7 @@ const DaskTopMenu = () => {
         <div className="dropdown-btn">
           <span className="far fa-plus" />
         </div>
-      </li>
+      </li> */}
     </ul>
   );
 };
