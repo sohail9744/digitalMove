@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"about.jsx -> @/src/components/Counter":{"id":"about.jsx -> @/src/components/Counter","files":["static/chunks/src_components_Counter_js.js"]},"index2.jsx -> @/src/components/Counter":{"id":"index2.jsx -> @/src/components/Counter","files":["static/chunks/src_components_Counter_js.js"]}}
+self.__REACT_LOADABLE_MANIFEST={"index.jsx -> @/src/components/Counter":{"id":"index.jsx -> @/src/components/Counter","files":["static/chunks/src_components_Counter_js.js"]}}
