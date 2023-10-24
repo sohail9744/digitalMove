@@ -3448,7 +3448,9 @@ h6, .h6 {
       min-width: auto; } }
       .main-menu .navbar-collapse li ul li {
         width: 100%;
-        padding: 7px 20px; }
+        padding: 7px 20px; 
+      display: none;}
+        
         @media only screen and (max-width: 991px) {
           .main-menu .navbar-collapse li ul li {
             padding: 0 15px; } }
