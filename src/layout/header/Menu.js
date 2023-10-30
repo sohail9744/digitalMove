@@ -14,6 +14,7 @@ const Menu = ({ singleMenu }) => {
       )}
     </Fragment>
   );
+  
 };
 export default Menu;
 
@@ -268,7 +269,7 @@ const MobileMenu = () => {
       value === multiMenu ? { display: "block" } : { display: "none" };
   return (
     <ul className="navigation d-block d-lg-none mobile-menu">
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <a href="#">Home</a>
         <ul style={activeLi("home")}>
           <li className="dropdown">
@@ -478,6 +479,31 @@ const MobileMenu = () => {
         <div className="dropdown-btn" onClick={() => activeMenuSet("blog")}>
           <span className="far fa-plus" />
         </div>
+      </li> */}
+      <li>
+        <Link legacyBehavior href="/">
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link legacyBehavior href="about">
+          About Us
+        </Link>
+      </li>
+      <li>
+        <Link legacyBehavior href="contact">
+          Contact Us
+        </Link>
+      </li>
+      <li>
+        <Link legacyBehavior href="services">
+          Services
+        </Link>
+      </li>
+      <li>
+        <Link legacyBehavior href="services">
+          Blog
+        </Link>
       </li>
     </ul>
   );
