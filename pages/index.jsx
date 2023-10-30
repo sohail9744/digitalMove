@@ -645,7 +645,7 @@ const Index2 = () => {
       </section>
       {/* Project Timeline Two Area end */}
       {/* Team Area start */}
-      <section className="team-area pt-75 rpt-45">
+      {/* <section className="team-area pt-75 rpt-45">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -661,7 +661,7 @@ const Index2 = () => {
             <div className="col">
               <div className="team-member wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/team/member6.jpg" alt="Team Member" />
+                  <img src="assets/images/team/profilePhoto.svg" alt="Team Member" />
                 </div>
                 <div className="content">
                   <h4>Patrick V. Schroeder</h4>
@@ -853,7 +853,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team Area end */}
       {/* Why Choose Us start */}
       <section className="demo-area pt-100 rpt-70 rel z-1">
@@ -945,7 +945,7 @@ const Index2 = () => {
             "url(assets/images/background/pricing-bg-dot-shape.png)",
         }}
       >
-        <div className="container container-1290">
+        {/* <div className="container container-1290">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
               <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
@@ -1041,7 +1041,7 @@ const Index2 = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       {/* Pricing style three end */}
       {/* Headline area start */}
@@ -1079,7 +1079,7 @@ const Index2 = () => {
       </div>
       {/* Headline Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonial-section pt-130 rpt-90">
+      <section className="testimonial-section pt-130 rpt-90 pb-65">
         <div className="container container-1210">
           <div className="row">
             <div className="col-lg-6">
@@ -1252,7 +1252,7 @@ const Index2 = () => {
       </section>
       {/* Testimonial Area end */}
       {/* Blog Style Two start */}
-      <section className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
+      {/* <section className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
         <div className="container container-1290">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9">
@@ -1338,7 +1338,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Blog Style Two end */}
     </Layout>
   );
