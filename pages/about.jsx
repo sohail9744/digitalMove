@@ -46,7 +46,7 @@ const About = () => {
 
       {/* Page Banner Section End */}
       {/* Video Area start */}
-      <div className="video-area-two rel z-1">
+      {/* <div className="video-area-two rel z-1">
         <div className="container-fluid">
           <div className="video-part style-two mb-40 wow fadeInUp delay-0-2s">
             <img src="assets/images/video/video-two-bg.jpg" alt="Video" />
@@ -109,7 +109,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Video Area end */}
       {/* Who We Are start */}
       <section className="who-we-are-area pt-100 rpt-80 pb-75 rpb-45 rel z-1">
@@ -130,8 +130,9 @@ const About = () => {
                   <h5>Customize your site</h5>
                 </div>
                 <p>
-                  At vero eos et accusamus iusto dignissim ducimuse blanditiis
-                  praesentiue
+                  Certainly! Customizing your site is a crucial aspect of
+                  establishing a strong online presence for your IT and service
+                  company.
                 </p>
               </div>
             </div>
@@ -142,8 +143,10 @@ const About = () => {
                   <h5>Edit your mobile view</h5>
                 </div>
                 <p>
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                  corporis suscipit
+                  Absolutely! Crafting an optimal mobile view is paramount for
+                  ensuring a seamless and engaging user experience on your
+                  website, particularly in an era where mobile browsing is
+                  prevalent.
                 </p>
               </div>
             </div>
@@ -151,11 +154,13 @@ const About = () => {
               <div className="why-choose-item style-two wow fadeInUp delay-0-6s">
                 <div className="why-choose-header">
                   <i className="flaticon-optimization-1" />
-                  <h5>Optimize search engines</h5>
+                  <h5>Search Engine Optimization</h5>
                 </div>
                 <p>
-                  Quis autem vel eum iure reprehenderi qui ea voluptate velit
-                  esse quam nihile
+                  Search Engine Optimization (SEO) is a multifaceted strategy
+                  crucial for enhancing your website's visibility on search
+                  engines, thereby driving organic traffic and boosting online
+                  presence.
                 </p>
               </div>
             </div>
@@ -210,7 +215,7 @@ const About = () => {
       </div>
       {/* Headline Area end */}
       {/* Team Area start */}
-      <section className="team-area pt-130 rpt-100">
+      {/* <section className="team-area pt-130 rpt-100">
         <div className="container-fluid">
           <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
             <div className="col">
@@ -408,7 +413,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team Area end */}
       {/* Statistics Area start */}
       <div
@@ -420,28 +425,28 @@ const About = () => {
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-2s">
                 <i className="fal fa-check-circle" />
-                <Counter end={25} />
+                <Counter end={15} />
                 <span className="counter-title">Years Of Experience</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-3s">
                 <i className="fal fa-check-circle" />
-                <Counter end={3} extraClass={"k"} />
+                <Counter end={30} extraClass={"+"} />
                 <span className="counter-title">Project’s Complete</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-4s">
                 <i className="fal fa-check-circle" />
-                <Counter end={48} />
+                <Counter end={25} />
                 <span className="counter-title">Professionals Team Member</span>
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInRight delay-0-5s">
                 <i className="fal fa-check-circle" />
-                <Counter end={92} />
+                <Counter end={3} />
                 <span className="counter-title">Awards Winning</span>
               </div>
             </div>
@@ -450,7 +455,7 @@ const About = () => {
       </div>
       {/* Statistics Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonial-section pt-70 rpt-30">
+      {/* <section className="testimonial-section pt-70 rpt-30">
         <div className="container container-1210">
           <div className="row">
             <div className="col-lg-6">
@@ -620,10 +625,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Testimonial Area end */}
       {/* Client Logo Two start */}
-      <section className="client-logo-area pt-130 rpt-100 pb-100 rpb-70">
+      {/* <section className="client-logo-area pt-130 rpt-100 pb-100 rpb-70">
         <div className="container">
           <div className="section-title text-center mb-60">
             <h4>We Have 1520+Global Clients</h4>
@@ -679,7 +684,7 @@ const About = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

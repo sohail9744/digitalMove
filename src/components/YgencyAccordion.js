@@ -17,9 +17,7 @@ const YgencyAccordion = ({ event, active, onClick, title }) => {
       <Accordion.Collapse eventKey={event}>
         <div className="accordion-body">
           <p>
-            To take a trivial example which undertakes laborious physical
-            exercise except to obtain some advantage pleasure annoying
-            consequences
+            you need to change
           </p>
         </div>
       </Accordion.Collapse>

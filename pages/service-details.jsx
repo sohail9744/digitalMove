@@ -5,7 +5,10 @@ import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 const ServiceDetails = () => {
   const accordionData = [
-    { id: 1, title: "Will you provide website layout about design ?" },
+    {
+      id: 1,
+      title: "Will you provide website layout about design ?",
+    },
     { id: 2, title: "How much does cost to design website ?" },
     { id: 3, title: "How many revisions can i make the design ?" },
     { id: 4, title: "Will you provide website layout about design ?" },
@@ -72,10 +75,10 @@ const ServiceDetails = () => {
                 </div>
                 <div className="content">
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptat
-                    emey accusantium doloremque laudantium totam aperiam eaque
-                    quabillo inventore veritatisey quasi architecto beatae
-                    dictasunt
+                    🚀 Elevate your digital presence with our expert web
+                    development services! In React, we craft dynamic and
+                    interactive user interfaces, seamlessly blending performance
+                    with a modern design aesthetic.
                   </p>
                   <ul className="list-style-three pt-15 pb-25">
                     <li>Web Design &amp; Development</li>
@@ -102,11 +105,11 @@ const ServiceDetails = () => {
             <h2>Simple Step Follow to Complete Work</h2>
             <div className="text mt-30">
               <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum
+                Our method involves strategic planning, organized task
+                execution, and a focus on achievement. With clear communication
+                and a celebration of milestones, we ensure efficient and
+                effective project completion. Elevate your goals with our
+                straightforward approach to success! 💼✨
               </p>
             </div>
           </div>
@@ -116,7 +119,10 @@ const ServiceDetails = () => {
                 <span className="step-number">Step 01</span>
                 <h4 className="title">Idea Generate</h4>
                 <div className="content">
-                  <p>Vero eos et accusamus iusto odio disimos</p>
+                  <p>
+                    🌟Ignite innovation with creative brainstorming, turning
+                    concepts into the seeds of success
+                  </p>
                 </div>
               </div>
             </div>
@@ -125,7 +131,10 @@ const ServiceDetails = () => {
                 <span className="step-number">Step 02</span>
                 <h4 className="title">Plan &amp; Design</h4>
                 <div className="content">
-                  <p>Quis autems eum iures reprehen voluptate</p>
+                  <p>
+                    📐Craft a strategic blueprint, ensuring every detail aligns
+                    with your vision for seamless execution
+                  </p>
                 </div>
               </div>
             </div>
@@ -134,7 +143,10 @@ const ServiceDetails = () => {
                 <span className="step-number">Step 03</span>
                 <h4 className="title">Project Testing</h4>
                 <div className="content">
-                  <p>To take example which ever undertakes</p>
+                  <p>
+                    🧪Rigorous testing ensures a robust solution, guaranteeing
+                    performance and reliability.
+                  </p>
                 </div>
               </div>
             </div>
@@ -143,7 +155,10 @@ const ServiceDetails = () => {
                 <span className="step-number">Step 04</span>
                 <h4 className="title">Got Results</h4>
                 <div className="content">
-                  <p>Avoids paine produces resultant pleasure</p>
+                  <p>
+                    🚀Witness your ideas bloom into tangible success, achieving
+                    measurable and impactful results.
+                  </p>
                 </div>
               </div>
             </div>
@@ -152,7 +167,7 @@ const ServiceDetails = () => {
       </section>
       {/* How We Works end */}
       {/* Video Area start */}
-      <div className="video-area-two rel z-1">
+      {/* <div className="video-area-two rel z-1">
         <div className="container-fluid">
           <div className="video-part style-two wow fadeInUp delay-0-2s">
             <img src="assets/images/video/video-two-bg.jpg" alt="Video" />
@@ -164,7 +179,7 @@ const ServiceDetails = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Video Area end */}
       {/* Headline area start */}
       <div className="headline-area bgc-primary pt-80 pb-65">
@@ -213,7 +228,7 @@ const ServiceDetails = () => {
       </div>
       {/* Headline Area end */}
       {/* Why Choose Us start */}
-      <section className="why-choose-area pt-100 rpt-70 rel z-1">
+      {/* <section className="why-choose-area pt-100 rpt-70 rel z-1">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-8">
@@ -292,7 +307,7 @@ const ServiceDetails = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Why Choose Us end */}
       {/* FAQ's Area start */}
       <section className="faq-area pt-130 rpt-95 pb-105 rpb-75 rel z-1">
@@ -318,6 +333,7 @@ const ServiceDetails = () => {
                     <YgencyAccordion
                       title={data.title}
                       key={data.id}
+                      description={data.des}
                       event={`collapse${i}`}
                       onClick={() =>
                         setActive(

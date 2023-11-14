@@ -316,7 +316,7 @@ const Services = () => {
       </section>
       {/* Work Process Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonial-section pt-95 rpt-65 pb-130 rpb-100">
+      {/* <section className="testimonial-section pt-95 rpt-65 pb-130 rpb-100">
         <div className="container container-1210">
           <div className="row">
             <div className="col-lg-6">
@@ -486,7 +486,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Testimonial Area end */}
       {/* footer area start */}
     </Layout>

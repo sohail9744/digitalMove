@@ -32,9 +32,10 @@ const Index2 = () => {
             <div className="col-xl-3 col-lg-4">
               <div className="hero-two-content mb-50 wow fadeInRight delay-0-2s">
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium totam reme aperiam eaque
-                  abillo inventore
+                  🚀 We specialize in providing cutting-edge technology
+                  solutions tailored to meet your business needs. 💻 Our team of
+                  experts is dedicated to delivering top-notch services, what
+                  you are looking for connect and build the Dream software
                 </p>
                 <img
                   className="mt-20"
@@ -47,7 +48,7 @@ const Index2 = () => {
                   <img src="assets/images/hero/author3.png" alt="Author" />
                   <img src="assets/images/hero/author4.png" alt="Author" />
                   <i className="fal fa-plus" />
-                  <span className="text">100+ Popular Clients</span>
+                  <span className="text">10+ Popular Clients</span>
                 </div>
               </div>
             </div>
@@ -86,10 +87,13 @@ const Index2 = () => {
                   <img src="assets/images/banner/add-banner.png" alt="Banner" />
                 </div>
                 <div className="content mt-20">
-                  <span className="number">150+</span>
+                  <span className="number">30+</span>
                   <h6>Project Complete</h6>
                   <hr />
-                  <p>Quis autem vel eum reprehe voluptate velit esse quam</p>
+                  <p>
+                    Turning visions into reality, one project at a time. Your
+                    success is our milestone!
+                  </p>
                 </div>
               </div>
             </div>
@@ -100,7 +104,7 @@ const Index2 = () => {
                   backgroundImage: "url(assets/images/banner/star-vector.png)",
                 }}
               >
-                <h3>Innovative Web Development Solutions</h3>
+                <h3>Innovative Full-Stack Development Solutions</h3>
                 <hr className="mb-35" />
                 <div className="authors-text">
                   <img src="assets/images/hero/author1.png" alt="Author" />
@@ -109,7 +113,7 @@ const Index2 = () => {
                   <img src="assets/images/hero/author4.png" alt="Author" />
                   <i className="fal fa-plus" />
                   <span className="text">
-                    We denounce indignatione dislike mende charms
+                    Our commitment: Bringing your ideas to life !
                   </span>
                 </div>
               </div>
@@ -130,6 +134,10 @@ const Index2 = () => {
           </div>
           <div className="skills-wrap">
             <div className="skill-item">
+              <img src="assets/images/skills/skill5.png" alt="Skill Icon" />
+              <span className="text">React</span>
+            </div>
+            <div className="skill-item">
               <img src="assets/images/skills/skill1.png" alt="Skill Icon" />
               <span className="text">Bootstrap</span>
             </div>
@@ -144,10 +152,6 @@ const Index2 = () => {
             <div className="skill-item">
               <img src="assets/images/skills/skill4.png" alt="Skill Icon" />
               <span className="text">javascript</span>
-            </div>
-            <div className="skill-item">
-              <img src="assets/images/skills/skill5.png" alt="Skill Icon" />
-              <span className="text">React</span>
             </div>
             <div className="skill-item">
               <img src="assets/images/skills/skill6.png" alt="Skill Icon" />
@@ -197,10 +201,11 @@ const Index2 = () => {
                 </div>
                 <div className="text-left-border mt-60 mb-65 wow fadeInUp delay-0-2s">
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptat
-                    emey accusantium doloremque laudantium totam aperiam eaque
-                    quabillo inventore veritatisey quasi architecto beatae
-                    dictasunt
+                    Our unwavering commitment to excellence, innovation, and
+                    client satisfaction has garnered recognition across
+                    industries. Trust us to bring award-winning expertise to
+                    your projects, ensuring success and distinction in every
+                    endeavor. 🌟
                   </p>
                 </div>
                 <div className="about-counter">
@@ -221,7 +226,7 @@ const Index2 = () => {
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="counter-item-two counter-text-wrap wow fadeInUp delay-0-4s">
-                        <Counter end={35} extraClass={"percent"} />
+                        <Counter end={100} extraClass={"percent"} />
                         <span className="counter-title">Project Complete</span>
                       </div>
                     </div>
@@ -252,7 +257,7 @@ const Index2 = () => {
             <div className="col-lg-7">
               <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
                 <span className="sub-title mb-15">Popular Services</span>
-                <h2>We Provide Amazing Web Design Solutions</h2>
+                <h2>We Provide Amazing Solutions</h2>
               </div>
             </div>
           </div>
@@ -496,7 +501,7 @@ const Index2 = () => {
       </div>
       {/* Headline Area end */}
       {/* Project Timeline-two Area start */}
-      <section className="project-timeline-two-area pt-130 rpt-100 rel z-1">
+      {/* <section className="project-timeline-two-area pt-130 rpt-100 rel z-1">
         <div className="container container-1290">
           <div className="row">
             <div className="col-xl-6 col-lg-8">
@@ -642,7 +647,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Project Timeline Two Area end */}
       {/* Team Area start */}
       {/* <section className="team-area pt-75 rpt-45">
@@ -1079,7 +1084,7 @@ const Index2 = () => {
       </div>
       {/* Headline Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonial-section pt-130 rpt-90 pb-65">
+      {/* <section className="testimonial-section pt-130 rpt-90 pb-65">
         <div className="container container-1210">
           <div className="row">
             <div className="col-lg-6">
@@ -1249,7 +1254,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Testimonial Area end */}
       {/* Blog Style Two start */}
       {/* <section className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
