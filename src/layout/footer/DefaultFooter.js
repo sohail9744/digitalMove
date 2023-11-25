@@ -9,13 +9,17 @@ const DefaultFooter = () => {
       }}
     >
       <div className="container container-1290">
-        <div className="footer-top pt-80 pb-60">
+        <div className="footer-top pt-35 pb-35">
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="footer-logo mb-20 wow fadeInRight delay-0-2s animated">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img style={{width: '145'}} src="assets/images/logos/footer-logo.png" alt="Logo" />
+                    <img
+                      style={{ width: "40" }}
+                      src="assets/images/logos/footer-logo.png"
+                      alt="Logo"
+                    />
                   </a>
                 </Link>
               </div>
@@ -42,24 +46,27 @@ const DefaultFooter = () => {
           <div className="col-lg-8">
             <div className="footer-left-content pt-80">
               <div className="lets-work mb-50 wow fadeInUp delay-0-2s animated">
-                <img
-                  src="assets/images/footer/lets-work.png"
-                  alt="Let's Work Man"
-                />
+                <div style={{ width: "40" }}>
+                  <img
+                    width="40%"
+                    src="assets/images/footer/lets-work.png"
+                    alt="Let's Work Man"
+                  />
+                </div>
                 <span>Let’s Work Together</span>
               </div>
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
                   className="theme-btn style-three"
-                  href="mailto:support@gmail.com"
+                  href="mailto:info@asyncloud.com"
                 >
                   info@asyncloud.com <i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
+                  href="callto:+919111063317"
                 >
-                  +000 (123) 456 88 <i className="far fa-arrow-right" />
+                  +91-9111063317 <i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>

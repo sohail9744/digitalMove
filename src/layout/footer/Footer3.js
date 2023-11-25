@@ -2,21 +2,24 @@ import Link from "next/link";
 
 const Footer3 = () => {
   return (
-    <footer 
+    <footer
       className="main-footer footer-three rel bgs-cover z-1"
       style={{
         backgroundImage: "url(assets/images/footer/footer-bg-shape-two.png)",
       }}
     >
-      <div  className="container container-1290">
+      <div className="container container-1290">
         <div className="footer-top-two pt-95 pb-55">
           <div className="row align-items-center">
             <div className="col-lg-4">
-              <div   className="footer-logo mb-20 wow fadeInRight delay-0-2s">
-                <Link  legacyBehavior href="/">
-                  <a >
-                    <img style={{width: '145'}} src="assets/images/logos/footer-logo.png" alt="Logo"  />
-                    
+              <div className="footer-logo mb-20 wow fadeInRight delay-0-2s">
+                <Link legacyBehavior href="/">
+                  <a>
+                    <img
+                      style={{ width: "40" }}
+                      src="assets/images/logos/footer-logo.png"
+                      alt="Logo"
+                    />
                   </a>
                 </Link>
               </div>
@@ -37,13 +40,15 @@ const Footer3 = () => {
               <h5 className="footer-title">Get In Touch</h5>
               <div className="text">
                 <p>55 Main Street, 2nd block Malborne, Australia</p>
-                <a href="info@asyncloud.com
+                <a
+                  href="info@asyncloud.com
 
-">info@asyncloud.com
-
-</a>
+"
+                >
+                  info@asyncloud.com
+                </a>
                 <br />
-                <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                <a href="callto:+919111063317">+91-9111063317</a>
               </div>
             </div>
           </div>
@@ -106,9 +111,7 @@ const Footer3 = () => {
           <p>
             Copyright @2023,{" "}
             <Link legacyBehavior href="/">
-              <a>Asyncloud
-
-</a>
+              <a>Asyncloud</a>
             </Link>{" "}
             All Rights Reserved
           </p>

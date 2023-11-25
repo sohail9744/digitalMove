@@ -7,7 +7,11 @@ const Footer5 = () => {
             <div className="footer-widget footer-about wow fadeInUp delay-0-2s">
               <div className="footer-logo mb-25">
                 <a href="index.html">
-                  <img style={{width: '145'}} src="assets/images/logos/logo.png" alt="Logo" />
+                  <img
+                    style={{ width: "40" }}
+                    src="assets/images/logos/logo.png"
+                    alt="Logo"
+                  />
                 </a>
               </div>
               <p>
@@ -21,13 +25,11 @@ const Footer5 = () => {
               <ul className="list-style-two">
                 <li>
                   <i className="far fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">info@asyncloud.com
-
-</a>
+                  <a href="mailto:info@asyncloud.com">info@asyncloud.com</a>
                 </li>
                 <li>
                   <i className="far fa-phone" />{" "}
-                  <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                  <a href="callto:+919111063317">+91-9111063317</a>
                 </li>
                 <li>
                   <i className="far fa-clock" />{" "}
@@ -60,9 +62,7 @@ const Footer5 = () => {
             <div className="col-lg-6">
               <div className="footer-copyright-text wow fadeInUp delay-0-2s">
                 <p>
-                  Copyright @2023, <a href="index.html">Asyncloud
-
-</a> All Rights
+                  Copyright @2023, <a href="index.html">Asyncloud</a> All Rights
                   Reserved
                 </p>
               </div>

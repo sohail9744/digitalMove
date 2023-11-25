@@ -1,6 +1,12 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 const Contact = () => {
+  const formDetail = {
+    fullName: "",
+    phone: "",
+    email: "",
+    message: ""
+  }
   return (
     <Layout>
       {/* Page Banner Start */}
@@ -23,29 +29,27 @@ const Contact = () => {
                 <div className="row gap-80 pb-30">
                   <div className="col-sm-6">
                     <div className="our-location-address mb-40">
-                      <h5>New York</h5>
-                      <p>
-                        55 One State Road, 2nd Block New York, United States
-                      </p>
-                      <a className="mailto" href="mailto:support@gmail.com">
-                        support@gmail.com
+                      <h5>Indonesia</h5>
+                      <p>55 Main Street, 2nd block Jakarta</p>
+                      <a className="mailto" href="mailto:info@asyncloud.com">
+                        info@asyncloud.com
                       </a>
                       <br />
-                      <a className="callto" href="callto:+00012345688">
-                        <i className="fas fa-phone" /> +000 (123) 456 88
+                      <a className="callto" href="callto:+919111063317">
+                        <i className="fas fa-phone" /> +91-9111063317
                       </a>
                     </div>
                   </div>
                   <div className="col-sm-6">
                     <div className="our-location-address mb-40">
-                      <h5>Australia</h5>
-                      <p>67 One State Road, 2nd Block Melbourne, Australia</p>
-                      <a className="mailto" href="mailto:support@gmail.com">
-                        support@gmail.com
+                      <h5>India</h5>
+                      <p>67 One State Road, Baramahal, Bhopal [M.P]</p>
+                      <a className="mailto" href="mailto:info@asyncloud.com">
+                        info@asyncloud.com
                       </a>
                       <br />
-                      <a className="callto" href="callto:+00012345688">
-                        <i className="fas fa-phone" /> +000 (123) 456 88
+                      <a className="callto" href="callto:+919111063317">
+                        <i className="fas fa-phone" /> +91-9111063317
                       </a>
                     </div>
                   </div>
@@ -61,7 +65,7 @@ const Contact = () => {
                   <a href="#">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/asyncloud-it-solutions/">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -91,7 +95,7 @@ const Contact = () => {
                           id="name"
                           name="name"
                           className="form-control"
-                          defaultValue
+                          value={formDetail.fullName}
                           placeholder="Full Name"
                           required
                           data-error="Please enter your name"
@@ -109,7 +113,7 @@ const Contact = () => {
                           id="phone_number"
                           name="phone_number"
                           className="form-control"
-                          defaultValue
+                          value={formDetail.phone}
                           placeholder="Phone"
                           required
                           data-error="Please enter your Number"
@@ -127,7 +131,7 @@ const Contact = () => {
                           id="email"
                           name="email"
                           className="form-control"
-                          defaultValue
+                          value={formDetail.email}
                           placeholder="Email Address"
                           required
                           data-error="Please enter your Email Address"
@@ -148,7 +152,7 @@ const Contact = () => {
                           placeholder="Message"
                           required
                           data-error="Please enter your Message"
-                          defaultValue={""}
+                          value={formDetail.message}
                         />
                         <div className="help-block with-errors" />
                       </div>
@@ -158,6 +162,7 @@ const Contact = () => {
                         <button
                           type="submit"
                           className="theme-btn style-two w-100"
+                          // onClick={}
                         >
                           Send Message us <i className="far fa-arrow-right" />
                         </button>

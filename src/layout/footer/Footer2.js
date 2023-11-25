@@ -5,7 +5,7 @@ const Footer2 = () => {
     <footer
       className="main-footer footer-two pt-100 pb-50 rpb-20 rel z-1"
       style={{
-        backgroundImage: "url(assets/images/footer/footer-bg-shape.png)"   , 
+        backgroundImage: "url(assets/images/footer/footer-bg-shape.png)",
       }}
     >
       <div className="container container-1290">
@@ -29,10 +29,10 @@ const Footer2 = () => {
             <div className="footer-widget footer-text wow fadeInUp delay-0-4s">
               <h5 className="footer-title">Get In Touch</h5>
               <div className="text">
-                <p>55 Main Street, 2nd block Malborne, Australia</p>
-                <a href="mailto:support@gmail.com">info@asyncloud.com</a>
+                <p>55 Main Street, 2nd block Jakarta, Indonesia</p>
+                <a href="mailto:info@asyncloud.com">info@asyncloud.com</a>
                 <br />
-                <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                <a href="callto:+919111063317">+91-9111063317</a>
               </div>
             </div>
           </div>

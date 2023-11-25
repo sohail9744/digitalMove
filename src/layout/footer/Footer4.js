@@ -75,7 +75,7 @@ const Footer4 = () => {
               <div className="footer-logo pt-15">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img style={{width: '145'}} src="assets/images/logos/footer-logo.png" alt="Logo" />
+                    <img style={{width: '40'}} src="assets/images/logos/footer-logo.png" alt="Logo" />
                   </a>
                 </Link>
               </div>
