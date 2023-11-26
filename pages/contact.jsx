@@ -35,8 +35,8 @@ const Contact = () => {
                         info@asyncloud.com
                       </a>
                       <br />
-                      <a className="callto" href="callto:+919111063317">
-                        <i className="fas fa-phone" /> +91-9111063317
+                      <a className="callto" href="callto:+628886461950">
+                        <i className="fas fa-phone" /> +62-8886461950
                       </a>
                     </div>
                   </div>
@@ -178,7 +178,7 @@ const Contact = () => {
       </section>
       {/* Contact Form Area end */}
       {/* Location Map Area Start */}
-      <div className="contact-page-map mb-120 rpb-90 wow fadeInUp delay-0-2s">
+      {/* <div className="contact-page-map mb-120 rpb-90 wow fadeInUp delay-0-2s">
         <div className="container-fluid">
           <div className="our-location">
             <iframe
@@ -190,7 +190,7 @@ const Contact = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Location Map Area End */}
       {/* footer area start */}
     </Layout>

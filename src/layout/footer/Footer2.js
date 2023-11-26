@@ -32,7 +32,7 @@ const Footer2 = () => {
                 <p>55 Main Street, 2nd block Jakarta, Indonesia</p>
                 <a href="mailto:info@asyncloud.com">info@asyncloud.com</a>
                 <br />
-                <a href="callto:+919111063317">+91-9111063317</a>
+                <a href="callto:+628886461950">+62-8886461950</a>
               </div>
             </div>
           </div>
